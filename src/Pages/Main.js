@@ -250,9 +250,9 @@ const Main = () => {
                   </button>
                 </div>
               </div>
-              <div className="img flex">
+              {/* <div className="img flex">
                 <img src={ImgDog} className="dog-img" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
