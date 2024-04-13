@@ -250,9 +250,6 @@ const Main = () => {
                   </button>
                 </div>
               </div>
-              {/* <div className="img flex">
-                <img src={ImgDog} className="dog-img" />
-              </div> */}
             </div>
           </div>
         </div>
@@ -272,24 +269,6 @@ const Main = () => {
                     your wallet. Listing on the DEX is scheduled for the day after the presale ends.
                   </div>
                   <br />
-                  {/* <div className="step-dec">
-                    Purchasing on a desktop browser will give you a smoother
-                    purchasing experience. For this, we recommend Metamask,
-                    Binance Smart Chain, or Wallet Connect, and if using Meta
-                    Mask make sure you select the Binance Smart Chain network.
-                    If you are purchasing on mobile, we recommend using Trust
-                    Wallet and connecting through the in-built browser (just
-                    copy{" "}
-                    <a
-                      href="http://barkleys.io/"
-                      target="_blank"
-                      className="mx-3 underline"
-                      rel="noreferrer"
-                    >
-                      Shiba blast
-                    </a>{" "}
-                    into the Trust Wallet Browser)
-                  </div> */}
                 </div>
               </div>
               <div className="how-buy-right flex aic jc">
@@ -297,22 +276,6 @@ const Main = () => {
               </div>
             </div>
             <div className="how-buy-info flex flex-col mt-16">
-              {/* <div className="how-buy-left flex">
-                <div className="steps flex flex-col">
-                  <div className="step-tag">STEP 2 - BUY Shiba Blast</div>
-                  <br />
-                  <div className="step-dec">
-                    Once you have selected your preferred wallet provider click
-                    “Connect Wallet” and select the appropriate option. For the
-                    mobile wallet app, you will need to select “Wallet Connect”.
-                  </div>
-                  <br />
-                  <div className="step-dec">
-                    You will then have 3 options which you can by{" "}
-                    <span className="logo-font">Shiba Blast</span>
-                  </div>
-                </div>
-              </div> */}
               <div className="max-w-[600px] w-full mx-auto mt-10">
                 <div className="card flex flex-col p-3">
                   <div className="text-center text-3xl font-semibold text-[#fba300c3]">
@@ -320,13 +283,7 @@ const Main = () => {
                   </div>
                   <img src={LogoFlare} className="w-[200px] mx-auto py-3" />
                   <div className="card-desc text-center">
-                    Please ensure you have Flare or USDT
-                    available in your wallet before commencing the transaction. Type in the amount
-                    of Flare you wish to use for the purchase, it will then show
-                    the Shiba Blast you will receive in the box below then Click
-                    “Convert Flare. You will then be asked to approve the
-                    purchase. Please ensure you go through the approval step in
-                    order to complete the transaction.
+                    Please ensure you have Flare available in your wallet before commencing the transaction. Type in the amount of Flare you wish to use for the purchase, it will then show the $Blast you will receive in the box below then Click ‘Convert Now’. You will then be asked to approve the purchase. Please ensure you go through the approval step in order to complete the transaction.
                   </div>
                 </div>
               </div>
@@ -335,14 +292,12 @@ const Main = () => {
               <div className="how-buy-left flex">
                 <div className="steps flex flex-col">
                   <div className="step-tag">
-                    STEP 2 - ADD BLAST TOKEN TO YOUR WALLET
+                    STEP 2 - ADDING THE $BLAST TOKEN TO YOUR WALLET
                   </div>
                   <br />
                   <div className="step-dec">
                     Once you have purchased your{" "}
-                    <span className="logo-font">Shiba Blast</span> you will then
-                    need to add the token information to your wallet so they are
-                    visible. To do this do the following.
+                    <span className="logo-font">Shiba Blast</span> you will then need to add the token information to your wallet so they are visible. To do this do the following.
                   </div>
                   <br />
                   <div className="step-dec">
@@ -350,19 +305,15 @@ const Main = () => {
                     <span className="logo-font">Shiba Blast</span> and login
                   </div>
                   <div className="step-dec">
-                    2. Once logged in, you will need to add the token,
-                      depending on the wallet you used you will need to find the section that allows you to import a token
-                      (metamask). Example screens below:
+                    2. Once logged in,  Once logged in, you will need to add the token, depending on the wallet you used you will need to find the section that allows you to import a token. Example screen for metamask below.
 
                   </div>
                   <div className="step-dec">
-                    3. Once you have found the screen all you need to do is copy
-                    and paste the contract address which is :
+                    3. Once you have found the screen all you need to do is copy and paste the contract address which is :
                     <span className="token-id b6 s-30">
-                      0xBA3495e43199AD4EB653Be255172f921D4e44Ab5
+                      0xBA3495e43199AD4EB653Be255172f921D4e44Ab5 
                     </span>{" "}
-                    in the contract address field then click the add token
-                    button. Once done your token will appear in your wallet.
+                    in the contract address field then click the add token button. Once done your token will appear in your wallet.
                   </div>
                 </div>
               </div>
@@ -415,7 +366,6 @@ const Main = () => {
         <Footer />
       </div>
       <Modal open={open} onClose={() => setOpen(false)}>
-        {/* <SelectToken setOpen={setOpen} setSelectedToken={setSelectedToken} /> */}
       </Modal>
     </div>
   );
