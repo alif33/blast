@@ -125,7 +125,7 @@ const Main = () => {
                   </div>
                 </div>
                 <div className="page-desc">
-                  <span className="logo-font">Shiba Blast</span> Flare's newest meme coin that plans to take over the scene with an approach to marketing that will lead to exponential growth. It's the first meme that allows early adopters to earn with their own referral link which you can create here and receive 10% commission in FLR instantly everytime someone buys $BLAST. You can buy directly using FLR or USDT already in your wallet, if not please then you'll need to deposit some first to do so. Once purchased you will need to add the token to your wallet using the custom token, or import token option, in your wallet and add the following contract address below:
+                  <span className="logo-font">Shiba Blast</span> Flare's newest meme coin plans to take over the scene with an approach that will lead to exponential growth. It's the first meme on Flare that allows early adopters to earn with their own referral link which you can create here and receive 10% commission in FLR instantly everytime someone buys $BLAST. You can buy directly using FLR already in your wallet, if not please then you'll need to deposit some first to do so. Once purchased you will need to add the token to your wallet using the custom token, or import token option, in your wallet and add the following contract address below:
                 </div>
                 <div className="token-box flex items-center">
                   <div className="token-id">
@@ -138,10 +138,10 @@ const Main = () => {
                 <div className="left-info flex">
                   <div className="info-le flex flex-col">
                     <div className="token-price">
-                      1 FLR = 4.07 <span className="logo-font">Blast</span>
+                      1 FLR = 100 <span className="logo-font">Blast</span>
                     </div>
                     <div className="token-price">
-                      PHASE 1 - 5,000,000
+                      PHASE 1 - 300,000,000
                     </div>
                     <div className="token-numb-sec flex aic">
                       <div className="numb">{stat.contractBalance}</div>
@@ -152,6 +152,11 @@ const Main = () => {
                 <>
                   <HorizontalSlider value={sold} max={total} />
                 </>
+                <div className="mt-3">
+                  <h2 className="text-2xl">62% - presale</h2>
+                  <h2 className="text-2xl">20% - DEX liquidity</h2>
+                  <h2 className="text-2xl">18% - marketing</h2>
+                </div>
               </div>
               <div className="right-side flex flex-col">
                 <div className="right-side-box flex flex-col">
@@ -197,11 +202,11 @@ const Main = () => {
                         </div>
                         <div className="c-right flex justify-end">
                           <div className="field flex flex-col">
-                            <div className="field-lbl">RECIEVED</div>
+                            <div className="field-lbl">RECEIVED</div>
                             <input
                               type="number"
                               className="txt cleanbtn"
-                              placeholder="RECIEVED"
+                              placeholder="RECEIVED"
                               value={receivedAmount}
                               style={{
                                 color: "black",
