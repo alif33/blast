@@ -234,12 +234,12 @@ const Main = () => {
                 </div>
 
                 <div className="info-box flex flex-col">
-                  <p className="text-xl text-center py-2">
+                  <h2 className="text-center text-xl pt-2">EARN DIRECTLY FROM REFERRALS</h2>
+                  <p className="text-xl text-center py-1">
                     10% commission for each referred buyer!
                   </p>
                   <p className="text-sm text-center pb-2">
-                    share the referral link and get 10% commission credited
-                    directly to your wallet in $
+                    Share your unique referral link and get 10% commission credited immediately in FLR for every transaction
                   </p>
                   <input
                     type="text"
@@ -324,17 +324,11 @@ const Main = () => {
               </div>
               <div className="images-block flex items-start justify-center">
                 <div className="token-types-block2">
-                  <div className="card flex flex-col">
-                    <div className="card-tag">META MASK</div>
-                    <img src="./images/tab1.png" className="tab-img" />
-                  </div>
-                  <div className="card flex flex-col">
-                    <div className="card-tag">BSC</div>
-                    <img src="./images/tab2.jpg" className="tab-img" />
-                  </div>
-                  <div className="card flex flex-col">
-                    <div className="card-tag">TRUST WALLET</div>
-                    <img src="./images/tab3.jpeg" className="tab-img" />
+                  <div className="flex justify-center">
+                    <div className="card flex flex-col">
+                      <div className="card-tag">META MASK</div>
+                      <img src="./images/tab1.png" className="tab-img" />
+                    </div>
                   </div>
                 </div>
               </div>

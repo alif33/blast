@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="footer-btm flex aic text-center">
             <div className="copy-right-txt">
-              © 2024, Shiba Blast Ltd. All Rights Reserved.
+              © 2024, Shiba Blast. All Rights Reserved.
             </div>
           </div>
           {/* <div className="center flex aic jc flex-col text-center">
