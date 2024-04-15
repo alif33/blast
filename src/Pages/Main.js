@@ -152,7 +152,7 @@ const Main = () => {
                 <>
                   <HorizontalSlider value={sold} max={total} />
                 </>
-                <div className="mt-3">
+                <div className="mt-7">
                   <h2 className="text-2xl">62% - presale</h2>
                   <h2 className="text-2xl">20% - DEX liquidity</h2>
                   <h2 className="text-2xl">18% - marketing</h2>
